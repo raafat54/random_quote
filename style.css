@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+   display: grid;
+   margin-inline: 15px;
+   grid-template-rows: 1fr 1fr 1fr 2fr 1fr;
+   height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    width: 15rem;
+    height: 5rem;
+    background-color: blue;
+    color: white;
+    margin: auto;
+}
+
+p{
+    align-content: center;
+    font-size: 2rem;
+}
+
+button:hover{
+    background-color: green;
+}
+
+/* ( 640px and down) */
+@media (max-width: 768px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
