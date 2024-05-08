@@ -34,7 +34,7 @@ button:hover{
     background-color: green;
 }
 
-/* ( 640px and down) */
+/* ( 768px and down) */
 @media (max-width: 768px) {
     h1{
         font-size: 2.5rem;
